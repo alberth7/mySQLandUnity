@@ -65,8 +65,8 @@ public class Gestor_BD : MonoBehaviour {
 
 
 	IEnumerator login(){
-	//	WWW coneccion = new WWW ("http://localhost:8181/test_juego/login.php?user="+txt_usuario.text+"&pass="+txt_contracena.text);
-		WWW coneccion = new WWW ("http://game07environment.000webhostapp.com/game07/login.php?user=" + txt_usuario.text + "&pass=" + txt_contracena.text);
+	//	WWW coneccion = new WWW ("http://localhost:8181/test_juego/puntos.php?user="+txt_usuario.text+"&pass="+txt_contracena.text);
+		WWW coneccion = new WWW ("http://game07environment.000webhostapp.com/game07/puntos.php?user=" + txt_usuario.text + "&pass=" + txt_contracena.text);
 
 		cuadro.SetActive (true);
 
